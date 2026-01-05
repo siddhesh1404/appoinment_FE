@@ -5,6 +5,7 @@ import React from "react";
 import { useState } from "react";
 
 export default function Navbar() {
+  
   const [isOpen, setIsOpen] = useState(false);
   const [token, setToken] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
@@ -44,7 +45,7 @@ export default function Navbar() {
             className="text-white bg-[#5f6fff] hover:bg-blue-800 focus:ring-4 
                        focus:outline-none focus:ring-blue-300 font-bold rounded-full 
                        text-sm px-6 py-4 text-center"
-          onClick={()=>navigate('register')}
+          onClick={()=>window.open('register')}
           >
             Create Account
           </button>

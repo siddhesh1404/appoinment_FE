@@ -27,7 +27,7 @@ function App() {
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/register" element={<Register />} />
+        
         <Route path="/my-profile" element={<MyProfile />} />
         <Route path="/my-appoinment" element={<MyAppoiments />} />
         <Route path="/my-recent-appoinment" element={<MyrecentAppoiments />} />
@@ -36,6 +36,7 @@ function App() {
 
       {/* ADMIN ROUTE (NO NAVBAR / FOOTER) */}
       <Route path="/admindashboard" element={<AdminDashBoard />} />
+      <Route path="/register" element={<Register />} />
       <Route path="/admin-panel" element={<AdminPanel />} />
       <Route path="/add-doctor" element={<Add_Docter />} />
       <Route path="/approved-doctors" element={<APVDocter />} />

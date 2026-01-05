@@ -7,7 +7,7 @@ function Add_Docter() {
        <div className="p-6">
       <div className=" bg-white mx-auto mt-20 p-8 rounded-lg shadow-lg border border-[#E8E8E8]">
         <h2 className="text-center text-2xl font-bold text-[#5e5e5e]">
-          Add New Doctor</h2>
+          Add New Docto</h2>
         <div>
           <form className="mt-4 ">
 
